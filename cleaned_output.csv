@@ -1,0 +1,16 @@
+customer_id,name,age,gender,city,signup_date,total_orders,total_spent,is_active
+1001,Arjun,23.0,Male,Chennai,2023-01-15,5.0,12500.5,True
+1002,Priya,29.0,Female,Bangalore,2022-11-03,8.0,18200.0,True
+1003,Rahul,28.5,Male,Mumbai,2021-06-21,2.0,5400.75,False
+1004,Divya,26.0,Female,Hyderabad,2023-03-10,10.0,25000.0,True
+1005,Karthik,31.0,Male,Chennai,2020-09-18,0.0,0.0,False
+1006,Meera,24.0,Female,,2024-02-01,3.0,7200.0,True
+1007,Vikram,400.0,Male,Delhi,2019-12-12,15.0,540000.0,True
+1008,Ananya,27.0,Female,Pune,2022-07-25,6.0,-13400.2,True
+1009,Suresh,33.0,,Kolkata,2021-04-17,4.0,8900.0,
+1010,Lakshmi,30.0,Female,Chennai,invalid_date,7.0,15800.6,True
+1011,Ravi,28.0,Male,Chennai,2023-05-14,4.5,12000.0,True
+1012,Nisha,22.0,Female,Bangalore,2023-09-01,3.0,10450.0,True
+1013,Amit,-5.0,Male,Mumbai,2022-01-20,2.0,4500.0,False
+1014,,35.0,Female,Hyderabad,2021-11-11,1.0,3000.0,False
+1015,Keerthi,29.0,FEMALE,Chennai,2023-12-01,1000.0,9999999.99,True
