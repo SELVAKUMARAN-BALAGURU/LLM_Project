@@ -3,6 +3,8 @@ import json
 
 from tools.profiler import load_dataset, generate_profile
 from tools.transformer import apply_cleaning_plan
+from tools.feature_engineering import run_feature_engineering
+from tools.eda_agent import run_eda
 from agents.planner_agent import generate_cleaning_plan
 
 
@@ -34,6 +36,19 @@ def run_pipeline(file_path):
     cleaned_df.to_csv("cleaned_output.csv", index=False)
 
     print("\nCleaned dataset saved as cleaned_output.csv")
+
+    # ----------------------------------
+    # Feature Engineering Agent
+    # ----------------------------------
+
+    engineered_df = run_feature_engineering(cleaned_df)
+
+    engineered_df.to_csv("engineered_output.csv", index=False)
+
+    print("\nEngineered dataset saved as engineered_output.csv")
+
+    print("\nRunning Exploratory Data Analysis...")
+    run_eda(engineered_df)
 
 
 if __name__ == "__main__":
