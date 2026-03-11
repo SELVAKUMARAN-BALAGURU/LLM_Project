@@ -1,0 +1,5 @@
+open 2 terminals
+
+In one terminal execute--ollama run llama3:8b
+
+In another terminal execute--python -m app.main data/datasetname.csv
