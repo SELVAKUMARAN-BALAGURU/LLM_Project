@@ -27,13 +27,19 @@ to decide appropriate cleaning strategies.
 Rules:
 - Return STRICT JSON only
 - No explanations
+- If any issues are detected in a column, include that column in the plan with appropriate action.
+- If outliers are detected, suggest "clip_outliers" for that column.
+- If dtype is numeric and nulls > 20%, suggest "median_imputation".
+- If dtype is categorical or string and nulls > 20%, suggest "mode_imputation".
+- If semantic_type is datetime then suggest "datetime_imputation" for nulls.
+- If there is datetime issue detected, suggest "datetime_imputation".
 - Use this format:
 
 {{
  "drop_duplicates": true or false,
  "column_actions": [
-   {{"column": "column_name", "action": "median_imputation"}},
-   {{"column": "column_name", "action": "normalize_text"}}
+   {{"column": "column_name", "action": "appropriate_action"}},
+   {{"column": "column_name", "action": "appropriate_action"}},
  ]
 }}
 

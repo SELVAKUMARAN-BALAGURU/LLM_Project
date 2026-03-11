@@ -69,4 +69,28 @@ def apply_cleaning_plan(df: pd.DataFrame, plan: dict):
 
             changes["rows_removed"] += removed
 
+        elif method == "clip_outliers":
+
+            q1 = df[col].quantile(0.25)
+            q3 = df[col].quantile(0.75)
+
+            iqr = q3 - q1
+
+            lower = q1 - 1.5 * iqr
+            upper = q3 + 1.5 * iqr
+
+            df[col] = df[col].clip(lower, upper)
+            changes["columns_modified"].append(col)
+
+        elif method == "normalize_text":
+            df[col] = df[col].astype(str).str.strip().str.lower()
+            changes["columns_modified"].append(col)
+        
+        elif method == "datetime_imputation":
+            df[col] = pd.to_datetime(df[col], errors="coerce")
+            filled = df[col].isna().sum()
+            df[col] = df[col].fillna(df[col].mode()[0])
+            changes["nulls_filled"] += int(filled)
+            changes["columns_modified"].append(col)
+
     return df, changes
