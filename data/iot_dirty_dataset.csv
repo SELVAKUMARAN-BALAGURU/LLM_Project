@@ -1,0 +1,101 @@
+device_id,device_type,location,temperature,humidity,power_usage,status,last_maintenance_date,signal_strength,error_code
+D001,Light,Bedroom,22.5,,1124.8,UNKNOWN,2024-13-01,-66.1,E305
+D002,AC,Living Room,NaN,36.2,invalid,ERROR,2023/11/15,-55.4,
+D003,Heater,Bathroom,-5,,128.8,OFF,2023/11/15,-51.2,
+D004,Fridge,Living Room,31.6,38.5,354.6,OFF,15-02-2024,-999.0,E202
+D005,Fan,Living Room,21.1,,704.7,UNKNOWN,15-02-2024,-999.0,
+D006,Fan,Hall,abc,35.6,509.0,UNKNOWN,2023/11/15,-75.3,E202
+D007,Fan,Kitchen,-5,,379.5,ERROR,,-69.4,E101
+D008,Light,Bedroom,-5,,invalid,UNKNOWN,2023/11/15,-83.2,E101
+D009,Heater,Bathroom,16.3,68.0,1451.9,UNKNOWN,2024-01-10,-999.0,
+D010,Fan,Bedroom,21.1,,invalid,ERROR,,-72.4,E202
+D011,Fridge,Bathroom,17.4,49.8,148.1,UNKNOWN,2024-01-10,-53.6,E202
+D012,Fridge,Hall,-5,56.5,536.4,OFF,2024-01-10,-999.0,
+D013,Fridge,Bedroom,abc,37.4,1457.4,UNKNOWN,,-999.0,E305
+D014,Fan,Kitchen,33.8,65.8,invalid,OFF,2023/11/15,-53.1,
+D015,Fan,Hall,-5,37.8,163.3,ERROR,2023/11/15,-999.0,E202
+D016,Heater,Living Room,85,,1260.2,OFF,15-02-2024,-75.7,E202
+D017,Heater,Hall,NaN,51.7,invalid,ERROR,2024-01-10,-999.0,E202
+D018,Light,Bathroom,abc,,1181.1,OFF,2024-01-10,-82.1,E305
+D019,Fan,Living Room,-5,62.6,invalid,ON,,-60.8,E202
+D020,Fan,Kitchen,85,33.0,invalid,UNKNOWN,2023/11/15,-999.0,E305
+D021,Fridge,Bathroom,abc,,invalid,ON,2023/11/15,-999.0,E202
+D022,Heater,Kitchen,21.2,,1121.4,ERROR,,-999.0,
+D023,Fridge,Living Room,32.7,,267.4,UNKNOWN,2023/11/15,-61.5,E202
+D024,Fridge,Hall,85,52.5,invalid,ON,,-999.0,E202
+D025,Heater,Kitchen,85,47.1,invalid,ON,2024-01-10,-85.7,E202
+D026,Fridge,Bathroom,-5,,540.1,ON,,-69.7,E101
+D027,Light,Living Room,abc,,674.5,UNKNOWN,2023/11/15,-59.8,E305
+D028,Fridge,Hall,abc,33.1,invalid,UNKNOWN,15-02-2024,-999.0,E202
+D029,Fridge,Hall,33.6,,invalid,OFF,2024-13-01,-999.0,E305
+D030,Fan,Kitchen,85,,1349.6,UNKNOWN,2023/11/15,-999.0,
+D031,Light,Bedroom,NaN,,invalid,UNKNOWN,,-85.6,E202
+D032,Fan,Living Room,NaN,,invalid,ERROR,2023/11/15,-55.6,E305
+D033,AC,Hall,85,50.4,invalid,UNKNOWN,,-81.1,
+D034,Light,Hall,-5,,1420.1,UNKNOWN,2024-01-10,-999.0,E202
+D035,AC,Bedroom,abc,58.1,609.1,ERROR,,-999.0,E101
+D036,AC,Hall,abc,,invalid,OFF,15-02-2024,-78.0,
+D037,Fan,Bathroom,abc,,invalid,UNKNOWN,2023/11/15,-69.9,E305
+D038,AC,Living Room,16.0,41.1,invalid,ERROR,2024-01-10,-80.4,E202
+D039,AC,Kitchen,17.9,,invalid,OFF,2024-01-10,-999.0,E305
+D040,Fan,Bedroom,NaN,60.5,432.7,UNKNOWN,15-02-2024,-60.9,E101
+D041,Light,Hall,22.4,,986.9,ERROR,2023/11/15,-68.6,E202
+D042,Fridge,Bathroom,16.8,63.4,549.1,OFF,2024-13-01,-82.5,E202
+D043,Heater,Bedroom,85,,1048.6,OFF,,-89.3,E202
+D044,AC,Kitchen,-5,,1003.2,UNKNOWN,2024-01-10,-83.0,E101
+D045,Light,Bedroom,85,,invalid,ON,2024-01-10,-84.5,
+D046,Fridge,Kitchen,21.8,34.5,invalid,ERROR,15-02-2024,-999.0,E101
+D047,AC,Living Room,-5,,invalid,UNKNOWN,,-999.0,
+D048,Light,Bedroom,85,,230.3,ERROR,2024-01-10,-54.1,E305
+D049,Light,Bedroom,85,55.3,574.6,OFF,2023/11/15,-76.0,E101
+D050,Light,Kitchen,NaN,,1341.9,ERROR,,-58.8,E101
+D051,Fan,Living Room,85,,326.3,OFF,15-02-2024,-54.1,
+D052,Heater,Bathroom,NaN,30.4,242.1,UNKNOWN,2024-13-01,-63.5,E305
+D053,Fridge,Hall,NaN,36.4,868.2,ERROR,2024-13-01,-999.0,E305
+D054,Fan,Hall,NaN,,1097.1,UNKNOWN,2024-01-10,-80.5,E101
+D055,Light,Bathroom,NaN,59.9,invalid,ON,2023/11/15,-56.0,E202
+D056,Heater,Hall,-5,52.7,231.1,ERROR,2024-01-10,-75.3,E305
+D057,Heater,Hall,20.3,,1462.2,UNKNOWN,15-02-2024,-999.0,E101
+D058,Fridge,Bedroom,85,,1212.7,UNKNOWN,2023/11/15,-69.9,E305
+D059,Fan,Bathroom,NaN,49.7,invalid,UNKNOWN,2024-13-01,-61.1,E202
+D060,Fridge,Bathroom,abc,,invalid,OFF,,-82.9,
+D061,AC,Living Room,-5,,invalid,ERROR,2024-01-10,-75.2,E305
+D062,Light,Kitchen,85,,invalid,ON,2023/11/15,-999.0,E101
+D063,Heater,Living Room,NaN,64.1,invalid,OFF,,-999.0,E101
+D064,Light,Bathroom,NaN,42.7,invalid,UNKNOWN,,-67.7,E101
+D065,Heater,Hall,abc,,898.1,OFF,2024-13-01,-86.1,E101
+D066,Light,Living Room,NaN,,296.1,ERROR,2024-13-01,-999.0,E202
+D067,Light,Living Room,NaN,,invalid,ON,2023/11/15,-61.9,
+D068,Fridge,Bathroom,85,,invalid,ERROR,2024-13-01,-57.6,
+D069,Heater,Hall,85,66.5,815.9,OFF,2024-01-10,-69.9,
+D070,AC,Living Room,85,56.0,invalid,UNKNOWN,2024-01-10,-999.0,
+D071,AC,Bathroom,85,,625.8,ERROR,2023/11/15,-999.0,E101
+D072,AC,Kitchen,85,31.4,751.8,ON,2024-01-10,-999.0,E202
+D073,Heater,Living Room,85,,invalid,ERROR,,-999.0,E101
+D074,Fan,Hall,NaN,,invalid,UNKNOWN,2024-13-01,-999.0,
+D075,Heater,Bedroom,abc,38.6,972.0,UNKNOWN,2024-01-10,-86.6,
+D076,Fan,Living Room,85,51.3,856.9,ERROR,,-999.0,
+D077,Fan,Bedroom,-5,,invalid,ERROR,2024-01-10,-77.1,
+D078,Heater,Kitchen,85,40.8,714.6,UNKNOWN,15-02-2024,-86.9,
+D079,Heater,Bedroom,15.5,,invalid,OFF,2024-13-01,-999.0,E101
+D080,AC,Hall,85,,invalid,ON,,-80.0,E202
+D081,Fridge,Bedroom,abc,58.6,1024.3,ON,15-02-2024,-78.8,E305
+D082,AC,Kitchen,85,,invalid,ON,,-65.5,E305
+D083,Heater,Living Room,-5,39.9,598.4,ON,2023/11/15,-59.7,E305
+D084,Light,Living Room,-5,,invalid,ERROR,2023/11/15,-88.4,E101
+D085,Fridge,Kitchen,abc,58.1,invalid,ON,2023/11/15,-999.0,E305
+D086,Fan,Kitchen,24.8,48.9,invalid,OFF,,-999.0,
+D087,Heater,Bedroom,-5,,989.1,ON,15-02-2024,-999.0,E305
+D088,Fan,Living Room,NaN,,804.4,ON,15-02-2024,-55.7,E305
+D089,Fridge,Bathroom,-5,,198.8,UNKNOWN,,-999.0,E305
+D090,AC,Hall,15.5,,invalid,UNKNOWN,2023/11/15,-999.0,E202
+D091,Fridge,Kitchen,abc,,invalid,OFF,15-02-2024,-68.2,
+D092,Heater,Bedroom,NaN,45.4,invalid,ON,2024-01-10,-53.8,E305
+D093,Fridge,Living Room,18.9,32.8,invalid,OFF,,-999.0,E101
+D094,Fan,Bathroom,85,57.3,invalid,OFF,2023/11/15,-77.2,E101
+D095,Fridge,Kitchen,NaN,,invalid,UNKNOWN,2024-01-10,-999.0,E202
+D096,Fridge,Bedroom,abc,57.9,invalid,ON,,-54.9,E305
+D097,Fan,Bathroom,NaN,,494.8,ON,15-02-2024,-999.0,E202
+D098,Light,Bathroom,-5,,1486.7,ERROR,2024-01-10,-73.5,E202
+D099,Light,Bathroom,NaN,61.1,577.1,ON,2024-01-10,-52.8,
+D100,AC,Bathroom,abc,47.2,1151.2,OFF,2024-13-01,-999.0,E305

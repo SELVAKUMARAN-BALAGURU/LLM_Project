@@ -1,16 +1,101 @@
-customer_id,name,age,gender,city,signup_date,total_orders,total_spent,is_active
-2001,Amit,32.0,Male,Delhi,2023-02-10,12.0,34500.0,True
-2002,Neha,25.0,Female,Mumbai,2023-08-22,3.0,8900.5,True
-2003,Rohan,45.0,Male,,2021-11-05,25.0,150000.0,True
-2004,Sneha,-10.0,Female,Pune,2022-04-18,6.0,12000.75,True
-2005,Karan,28.0,MALE,Bangalore,2024-01-15,1.0,2500.0,False
-2006,Pooja,30.0,Female,Hyderabad,invalid_date,8.0,24000.0,True
-2007,Vikash,200.0,Male,Chennai,2020-03-30,5.0,18000.0,True
-2008,Deepa,35.0,Female,Delhi,2022-09-12,6.5,32000.0,True
-2009,Rahul,29.0,Male,Mumbai,2023-05-20,4.0,-5000.0,True
-2010,,27.0,Female,Bangalore,2023-10-08,7.0,15000.0,True
-2011,Sanjay,40.0,Male,Pune,2021-07-25,15.0,85000.0,
-2012,Anita,26.0,,Chennai,2023-12-05,2.0,5000.0,False
-2013,Manoj,33.0,Male,Delhi,2022-02-14,0.0,21000.0,True
-2014,Kavita,31.0,Female,Mumbai,2020-08-19,10.0,45000.0,True
-2015,Ravi,24.0,Male,Hyderabad,2024-02-28,999.0,5000000.0,True
+device_id,device_type,location,temperature,humidity,power_usage,status,last_maintenance_date,signal_strength,error_code
+D001,Light,Bedroom,22.5,49.8,1124.8,Unknown,,-66.1,E305
+D002,Ac,Living Room,Unknown,36.2,Invalid,Error,2023-11-15,-55.4,Unknown
+D003,Heater,Bathroom,-5,49.8,128.8,Off,2023-11-15,-51.2,Unknown
+D004,Fridge,Living Room,31.6,38.5,354.6,Off,2024-02-15,-999.0,E202
+D005,Fan,Living Room,21.1,49.8,704.7,Unknown,2024-02-15,-999.0,Unknown
+D006,Fan,Hall,Abc,35.6,509.0,Unknown,2023-11-15,-75.3,E202
+D007,Fan,Kitchen,-5,49.8,379.5,Error,,-69.4,E101
+D008,Light,Bedroom,-5,49.8,Invalid,Unknown,2023-11-15,-83.2,E101
+D009,Heater,Bathroom,16.3,68.0,1451.9,Unknown,2024-01-10,-999.0,Unknown
+D010,Fan,Bedroom,21.1,49.8,Invalid,Error,,-72.4,E202
+D011,Fridge,Bathroom,17.4,49.8,148.1,Unknown,2024-01-10,-53.6,E202
+D012,Fridge,Hall,-5,56.5,536.4,Off,2024-01-10,-999.0,Unknown
+D013,Fridge,Bedroom,Abc,37.4,1457.4,Unknown,,-999.0,E305
+D014,Fan,Kitchen,33.8,65.8,Invalid,Off,2023-11-15,-53.1,Unknown
+D015,Fan,Hall,-5,37.8,163.3,Error,2023-11-15,-999.0,E202
+D016,Heater,Living Room,85,49.8,1260.2,Off,2024-02-15,-75.7,E202
+D017,Heater,Hall,Unknown,51.7,Invalid,Error,2024-01-10,-999.0,E202
+D018,Light,Bathroom,Abc,49.8,1181.1,Off,2024-01-10,-82.1,E305
+D019,Fan,Living Room,-5,62.6,Invalid,On,,-60.8,E202
+D020,Fan,Kitchen,85,33.0,Invalid,Unknown,2023-11-15,-999.0,E305
+D021,Fridge,Bathroom,Abc,49.8,Invalid,On,2023-11-15,-999.0,E202
+D022,Heater,Kitchen,21.2,49.8,1121.4,Error,,-999.0,Unknown
+D023,Fridge,Living Room,32.7,49.8,267.4,Unknown,2023-11-15,-61.5,E202
+D024,Fridge,Hall,85,52.5,Invalid,On,,-999.0,E202
+D025,Heater,Kitchen,85,47.1,Invalid,On,2024-01-10,-85.7,E202
+D026,Fridge,Bathroom,-5,49.8,540.1,On,,-69.7,E101
+D027,Light,Living Room,Abc,49.8,674.5,Unknown,2023-11-15,-59.8,E305
+D028,Fridge,Hall,Abc,33.1,Invalid,Unknown,2024-02-15,-999.0,E202
+D029,Fridge,Hall,33.6,49.8,Invalid,Off,,-999.0,E305
+D030,Fan,Kitchen,85,49.8,1349.6,Unknown,2023-11-15,-999.0,Unknown
+D031,Light,Bedroom,Unknown,49.8,Invalid,Unknown,,-85.6,E202
+D032,Fan,Living Room,Unknown,49.8,Invalid,Error,2023-11-15,-55.6,E305
+D033,Ac,Hall,85,50.4,Invalid,Unknown,,-81.1,Unknown
+D034,Light,Hall,-5,49.8,1420.1,Unknown,2024-01-10,-999.0,E202
+D035,Ac,Bedroom,Abc,58.1,609.1,Error,,-999.0,E101
+D036,Ac,Hall,Abc,49.8,Invalid,Off,2024-02-15,-78.0,Unknown
+D037,Fan,Bathroom,Abc,49.8,Invalid,Unknown,2023-11-15,-69.9,E305
+D038,Ac,Living Room,16.0,41.1,Invalid,Error,2024-01-10,-80.4,E202
+D039,Ac,Kitchen,17.9,49.8,Invalid,Off,2024-01-10,-999.0,E305
+D040,Fan,Bedroom,Unknown,60.5,432.7,Unknown,2024-02-15,-60.9,E101
+D041,Light,Hall,22.4,49.8,986.9,Error,2023-11-15,-68.6,E202
+D042,Fridge,Bathroom,16.8,63.4,549.1,Off,,-82.5,E202
+D043,Heater,Bedroom,85,49.8,1048.6,Off,,-89.3,E202
+D044,Ac,Kitchen,-5,49.8,1003.2,Unknown,2024-01-10,-83.0,E101
+D045,Light,Bedroom,85,49.8,Invalid,On,2024-01-10,-84.5,Unknown
+D046,Fridge,Kitchen,21.8,34.5,Invalid,Error,2024-02-15,-999.0,E101
+D047,Ac,Living Room,-5,49.8,Invalid,Unknown,,-999.0,Unknown
+D048,Light,Bedroom,85,49.8,230.3,Error,2024-01-10,-54.1,E305
+D049,Light,Bedroom,85,55.3,574.6,Off,2023-11-15,-76.0,E101
+D050,Light,Kitchen,Unknown,49.8,1341.9,Error,,-58.8,E101
+D051,Fan,Living Room,85,49.8,326.3,Off,2024-02-15,-54.1,Unknown
+D052,Heater,Bathroom,Unknown,30.4,242.1,Unknown,,-63.5,E305
+D053,Fridge,Hall,Unknown,36.4,868.2,Error,,-999.0,E305
+D054,Fan,Hall,Unknown,49.8,1097.1,Unknown,2024-01-10,-80.5,E101
+D055,Light,Bathroom,Unknown,59.9,Invalid,On,2023-11-15,-56.0,E202
+D056,Heater,Hall,-5,52.7,231.1,Error,2024-01-10,-75.3,E305
+D057,Heater,Hall,20.3,49.8,1462.2,Unknown,2024-02-15,-999.0,E101
+D058,Fridge,Bedroom,85,49.8,1212.7,Unknown,2023-11-15,-69.9,E305
+D059,Fan,Bathroom,Unknown,49.7,Invalid,Unknown,,-61.1,E202
+D060,Fridge,Bathroom,Abc,49.8,Invalid,Off,,-82.9,Unknown
+D061,Ac,Living Room,-5,49.8,Invalid,Error,2024-01-10,-75.2,E305
+D062,Light,Kitchen,85,49.8,Invalid,On,2023-11-15,-999.0,E101
+D063,Heater,Living Room,Unknown,64.1,Invalid,Off,,-999.0,E101
+D064,Light,Bathroom,Unknown,42.7,Invalid,Unknown,,-67.7,E101
+D065,Heater,Hall,Abc,49.8,898.1,Off,,-86.1,E101
+D066,Light,Living Room,Unknown,49.8,296.1,Error,,-999.0,E202
+D067,Light,Living Room,Unknown,49.8,Invalid,On,2023-11-15,-61.9,Unknown
+D068,Fridge,Bathroom,85,49.8,Invalid,Error,,-57.6,Unknown
+D069,Heater,Hall,85,66.5,815.9,Off,2024-01-10,-69.9,Unknown
+D070,Ac,Living Room,85,56.0,Invalid,Unknown,2024-01-10,-999.0,Unknown
+D071,Ac,Bathroom,85,49.8,625.8,Error,2023-11-15,-999.0,E101
+D072,Ac,Kitchen,85,31.4,751.8,On,2024-01-10,-999.0,E202
+D073,Heater,Living Room,85,49.8,Invalid,Error,,-999.0,E101
+D074,Fan,Hall,Unknown,49.8,Invalid,Unknown,,-999.0,Unknown
+D075,Heater,Bedroom,Abc,38.6,972.0,Unknown,2024-01-10,-86.6,Unknown
+D076,Fan,Living Room,85,51.3,856.9,Error,,-999.0,Unknown
+D077,Fan,Bedroom,-5,49.8,Invalid,Error,2024-01-10,-77.1,Unknown
+D078,Heater,Kitchen,85,40.8,714.6,Unknown,2024-02-15,-86.9,Unknown
+D079,Heater,Bedroom,15.5,49.8,Invalid,Off,,-999.0,E101
+D080,Ac,Hall,85,49.8,Invalid,On,,-80.0,E202
+D081,Fridge,Bedroom,Abc,58.6,1024.3,On,2024-02-15,-78.8,E305
+D082,Ac,Kitchen,85,49.8,Invalid,On,,-65.5,E305
+D083,Heater,Living Room,-5,39.9,598.4,On,2023-11-15,-59.7,E305
+D084,Light,Living Room,-5,49.8,Invalid,Error,2023-11-15,-88.4,E101
+D085,Fridge,Kitchen,Abc,58.1,Invalid,On,2023-11-15,-999.0,E305
+D086,Fan,Kitchen,24.8,48.9,Invalid,Off,,-999.0,Unknown
+D087,Heater,Bedroom,-5,49.8,989.1,On,2024-02-15,-999.0,E305
+D088,Fan,Living Room,Unknown,49.8,804.4,On,2024-02-15,-55.7,E305
+D089,Fridge,Bathroom,-5,49.8,198.8,Unknown,,-999.0,E305
+D090,Ac,Hall,15.5,49.8,Invalid,Unknown,2023-11-15,-999.0,E202
+D091,Fridge,Kitchen,Abc,49.8,Invalid,Off,2024-02-15,-68.2,Unknown
+D092,Heater,Bedroom,Unknown,45.4,Invalid,On,2024-01-10,-53.8,E305
+D093,Fridge,Living Room,18.9,32.8,Invalid,Off,,-999.0,E101
+D094,Fan,Bathroom,85,57.3,Invalid,Off,2023-11-15,-77.2,E101
+D095,Fridge,Kitchen,Unknown,49.8,Invalid,Unknown,2024-01-10,-999.0,E202
+D096,Fridge,Bedroom,Abc,57.9,Invalid,On,,-54.9,E305
+D097,Fan,Bathroom,Unknown,49.8,494.8,On,2024-02-15,-999.0,E202
+D098,Light,Bathroom,-5,49.8,1486.7,Error,2024-01-10,-73.5,E202
+D099,Light,Bathroom,Unknown,61.1,577.1,On,2024-01-10,-52.8,Unknown
+D100,Ac,Bathroom,Abc,47.2,1151.2,Off,,-999.0,E305
