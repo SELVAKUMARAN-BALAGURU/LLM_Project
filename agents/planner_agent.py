@@ -32,20 +32,24 @@ Act as a Data Engineer. Generate a JSON cleaning plan based on this Profile.
 {profile}
 """
 
-    if feedback:
-        base_prompt += """
-### USER FEEDBACK:
-The user reviewed the previous plan and requested the following modifications:
-{feedback}
-Please ensure you adjust the plan according to this feedback.
-"""
+Rules:
+- Return STRICT JSON only
+- No explanations
+- If any issues are detected in a column, include that column in the plan with appropriate action.
+- If outliers are detected, suggest "clip_outliers" for that column.
+- If dtype is numeric and nulls > 20%, suggest "median_imputation".
+- If dtype is categorical or string and nulls > 20%, suggest "mode_imputation".
+- If semantic_type is datetime then suggest "datetime_imputation" for nulls.
+- If there is datetime issue detected, suggest "datetime_imputation".
+- Use this format:
 
     base_prompt += """
 ### Response Format (Strict JSON):
 {{
  "drop_duplicates": bool,
  "column_actions": [
-   {{"column": "name", "actions": ["action_type_1", "action_type_2"]}}
+   {{"column": "column_name", "action": "appropriate_action"}},
+   {{"column": "column_name", "action": "appropriate_action"}},
  ]
 }}
 """

@@ -1,11 +1,8 @@
-age is highly right skewed.
 total_orders is highly right skewed.
-total_spent is highly right skewed.
+avg_order_value is highly left skewed.
 Strong correlation detected between total_orders and total_spent
 Strong correlation detected between total_spent and total_orders
-Strong correlation detected between signup_year and customer_tenure_days
-Strong correlation detected between customer_tenure_days and signup_year
-Most common value in gender is Male
-Most common value in city is Delhi
+Most common value in gender is Female
+Most common value in city is Chennai
 Most common value in is_active is True
 Most common value in high_value_customer is False
