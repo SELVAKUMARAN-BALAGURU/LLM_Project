@@ -22,7 +22,7 @@ def detect_column_type(series: pd.Series) -> str:
     # Try datetime detection
     try:
         sample = series.dropna().astype(str).head(10)
-        parsed = pd.to_datetime(sample, errors="coerce")
+        parsed = pd.to_datetime(sample, format="mixed", errors="coerce")
         if parsed.notna().sum() / len(sample) > 0.7:
             return "datetime"
     except Exception:
@@ -62,7 +62,7 @@ def detect_outliers(series: pd.Series) -> int:
 # -----------------------------------------
 def detect_invalid_dates(series: pd.Series) -> int:
 
-    parsed = pd.to_datetime(series, errors="coerce")
+    parsed = pd.to_datetime(series, format="mixed", errors="coerce")
 
     invalid = parsed.isna() & series.notna()
 
